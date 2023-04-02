@@ -1,4 +1,4 @@
-
+
 class Main {
 
   public static void main(String[] args) {
@@ -6,8 +6,14 @@ class Main {
     int first = 10;
     int second = 20;
 
-    // add two numbers
     int sum = first + second;
     System.out.println(first + " + " + second + " = "  + sum);
   }
 }
+
+public class IntToStringExample3{  
+public static void main(String args[]){  
+int i=200;  
+String s=String.format("%d",i);  
+System.out.println(s);  
+}}  
